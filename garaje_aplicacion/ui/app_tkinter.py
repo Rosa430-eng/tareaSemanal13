@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from modelos.vehiculo import Vehiculo
+from modelos.vehiculo import 
 from servicios.garaje_servicio import GarajeServicio
 
 
@@ -78,4 +78,5 @@ class AppGaraje:
     def limpiar(self):
         self.txt_placa.delete(0, tk.END)
         self.txt_marca.delete(0, tk.END)
+
         self.txt_propietario.delete(0, tk.END)
